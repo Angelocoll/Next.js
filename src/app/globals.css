@@ -28,6 +28,173 @@ body {
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    word-wrap: balance;
   }
+}
+
+/* Block: form */
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #5b5b5b;
+  border-radius: 5px;
+  margin-top: 150px;
+}
+
+/* Element: form__group */
+.form__group {
+  margin-bottom: 15px;
+}
+
+/* Element: form__label */
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Element: form__input */
+.form__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: black;
+}
+
+/* Element: form__button */
+.form__button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Modifier: form__button--primary */
+.form__button--primary {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Modifier: form__button--secondary */
+.form__button--secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Element: form__text */
+.form__text {
+  text-align: center;
+  margin: 10px 0;
+}
+h1 {
+  font-size: 2rem;
+}
+.btn {
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(127, 127, 127);
+  padding: 4px;
+  color: black;
+}
+.Item-card {
+  border: 1px solid white;
+  padding: 12px;
+}
+
+.head {
+  background-color: white;
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+a {
+  background-color: black;
+  padding: 8px;
+  border-radius: 2px;
+}
+.inve {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: #007bff;
+}
+button:hover {
+  scale: 0.98;
+}
+a:hover {
+  scale: 0.98;
+}
+.Create input {
+  margin-right: 12px;
+  padding: 0.2rem;
+  color: black;
+  margin-left: 40px;
+}
+.mid h2 {
+  margin-left: 38px;
+  margin-bottom: 8px;
+}
+li {
+  margin: 2rem;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+li div {
+  border: solid 1px red;
+  padding: 2rem;
+}
+.rub {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+.del {
+  background-color: red;
+  height: 2rem;
+  width: auto;
+  padding: 0.2rem;
+  border-radius: 2px;
+  margin: 1rem;
+}
+.edit {
+  background-color: rgb(22, 166, 0);
+  height: 2rem;
+  width: auto;
+  padding: 0.2rem;
+  border-radius: 2px;
+  margin: 1rem;
+}
+input {
+  color: black;
+}
+.big {
+  margin: 2rem;
+}
+.up input {
+  margin: 1rem;
+  padding: 0.2rem;
+}
+.up button {
+  background-color: green;
+  padding: 0.3rem;
 }
